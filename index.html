@@ -37,39 +37,7 @@
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript"><!--
-   // 画像の数
-   var imgs = 19;
-   // 切替秒数(ミリ秒)
-   var inttime = 1000;
-
-   // 関数１★指定番号の画像に差し替える関数
-   function showimage(num) {
-      var imagename = "./assets/okite/" + num + ".jpg";
-      document.getElementById('slideshow').src = imagename;
-   }
-
-   // 関数２★1番画像から順に表示させる関数
-   var imgcount=1;
-   function slideimage() {
-      if( imgcount > imgs ) {
-         imgcount = 1;
-      }
-      showimage( imgcount );
-      imgcount++;
-   }
-
-   // 関数３★スライドショーを開始する関数
-   var slideid;
-   function startshow() {
-      stopshow();
-      slideid = setInterval("slideimage()",inttime);
-   }
-
-   // 関数４★スライドショーを停止する関数
-   function stopshow() {
-      clearInterval(slideid);
-   }
-// --></script>
+  
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
