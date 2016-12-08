@@ -9,8 +9,6 @@
 
     <title>OKITE</title>
 
-    <base href="https://meidenid.github.io/2016-okite-web/">
-	  
     <!-- Google font css -->
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 
@@ -36,40 +34,7 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript"><!--
-   // 画像の数
-   var imgs = 19;
-   // 切替秒数(ミリ秒)
-   var inttime = 1000;
 
-   // 関数１★指定番号の画像に差し替える関数
-   function showimage(num) {
-      var imagename = "./assets/okite/" + num + ".jpg";
-      document.getElementById('slideshow').src = imagename;
-   }
-
-   // 関数２★1番画像から順に表示させる関数
-   var imgcount=1;
-   function slideimage() {
-      if( imgcount > imgs ) {
-         imgcount = 1;
-      }
-      showimage( imgcount );
-      imgcount++;
-   }
-
-   // 関数３★スライドショーを開始する関数
-   var slideid;
-   function startshow() {
-      stopshow();
-      slideid = setInterval("slideimage()",inttime);
-   }
-
-   // 関数４★スライドショーを停止する関数
-   function stopshow() {
-      clearInterval(slideid);
-   }
-// --></script>
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
@@ -112,12 +77,6 @@
 			</div>
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
-  <div class="photobox">
-   <img src="./assets/okite/1.jpg" id="slideshow" alt="スライドショー表示領域" width="100%" height="100%">
-</div>
-<div class="controlbox">
-   <input type="button" value="- 開始 -" onclick="startshow();">
-</div>
 
 
 	<!-- ========== WHITE SECTION ========== -->
@@ -125,7 +84,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h3>
+				<h3>WELCOME TO <bold>JEIKA</bold> WEB.<br>
+          PLEASE SEE INFORMATION ON<br>
+          <bold>OKITE</bold> DEVELOPED BY US.
 				</h3>
 				</div>
 			</div>
@@ -137,7 +98,7 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>OUR SERVICES</h3>
+				<h3></h3>
 				<br>
 				<br>
 				<div class="col-lg-3">
