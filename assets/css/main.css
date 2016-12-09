@@ -123,6 +123,14 @@ a:after {
 	letter-spacing: 2px;
 }
 
+#headerwrap h3 {
+  font-family: 'YuMincho', cursive;
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
@@ -476,4 +484,15 @@ a:after {
 .team a {
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+.imgcenter{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ min-height: 1px;
+}
+
+.colorwhite{
+  color: #fff
 }
