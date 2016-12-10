@@ -154,8 +154,16 @@ a:after {
 }
 
 
-#portfoliowrap h3 {
+/*#portfoliowrap h3 {
 	color: #ffffff;
+}*/
+
+h3.black{
+  color: #333;
+}
+
+h3.white{
+  color: #fff;
 }
 
 .port-space {
