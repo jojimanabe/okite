@@ -499,6 +499,8 @@ h3.white{
  margin-left: auto;
  margin-right: auto;
  min-height: 1px;
+ width: 55%;
+ max-width: none;
 }
 
 .colorwhite{
